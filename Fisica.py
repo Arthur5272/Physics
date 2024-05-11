@@ -23,6 +23,7 @@ def make_home_root() -> tk.Tk:
     root.title("Physics")
     root.config(padx=10, pady=10, bg="#2C2C2C")
     root.resizable(False, False)
+    root.iconbitmap("apple1.ico")
     return root
 
 def make_home_label(root) -> tk.Label:
